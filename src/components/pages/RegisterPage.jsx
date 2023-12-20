@@ -215,7 +215,7 @@ export default function RegisterPage() {
       {error && (
         <Alert severity="error">
           {error !== 'Network Error'
-            ? 'This user is already registered. Please try again with a another email'
+            ? 'The password should have at least 9 characters..'
             : error}
         </Alert>
       )}
