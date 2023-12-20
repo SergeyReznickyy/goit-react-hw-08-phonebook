@@ -12,7 +12,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 import ContactForm from 'components/ContactForm';
 import ContactList from 'components/ContactList';
-import Filter from 'components/Filter';
 import Loader from 'components/Loader';
 import Dialog from 'components/Dialog';
 
@@ -55,7 +54,7 @@ export default function ContactsPage() {
             <Typography align="center" component="h1" variant="h4">
               Contacts
             </Typography>
-            <Filter />
+
             <ContactList />
           </>
         )
